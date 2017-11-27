@@ -1,4 +1,4 @@
-package config.youtube;
+package net.teclliure.cimbingvideos.config.youtube;
 
 /**
  * Created by marc on 20/11/17.

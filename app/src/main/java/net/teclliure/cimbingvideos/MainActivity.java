@@ -9,7 +9,7 @@ import com.google.android.youtube.player.YouTubeInitializationResult;
 import com.google.android.youtube.player.YouTubePlayer;
 import com.google.android.youtube.player.YouTubePlayer.Provider;
 import com.google.android.youtube.player.YouTubePlayerView;
-import config.youtube.Config;
+import net.teclliure.cimbingvideos.config.youtube.Config;
 
 public class MainActivity extends YouTubeBaseActivity implements YouTubePlayer.OnInitializedListener {
 
@@ -28,7 +28,7 @@ public class MainActivity extends YouTubeBaseActivity implements YouTubePlayer.O
     @Override
     public void onInitializationSuccess(Provider provider, YouTubePlayer player, boolean wasRestored) {
         if (!wasRestored) {
-            player.cueVideo("fhWaJi1Hsfo"); // Plays https://www.youtube.com/watch?v=fhWaJi1Hsfo
+            player.cueVideo("Phl82D57P58"); // Plays https://www.youtube.com/watch?v=fhWaJi1Hsfo
         }
     }
 
